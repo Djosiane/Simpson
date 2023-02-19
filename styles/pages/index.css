@@ -1,0 +1,54 @@
+:root{
+    --primary-color:#4169e1;
+
+
+}
+
+body{
+    background-color: black; 
+    color: white;
+}
+
+.principal-section{
+    /* background-color: var(--primary-color); */
+}
+
+.principal-section__heading{
+    display : flex;
+    justify-content: center;
+}
+
+.cards-container{
+    display: grid;
+    gap: 20px;
+
+}
+
+
+.card{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__image{
+    display: block;
+    margin: auto;
+
+    width: 70%;
+
+
+}
+
+.card__label{
+}
+
+.card__h2{
+    display : flex;
+    justify-content: center;   
+}
+
+.card__p{
+    display : flex;
+    justify-content: center;     
+}
