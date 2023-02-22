@@ -1,0 +1,30 @@
+.color-title{
+    color : var(--tertiary-color);
+}
+
+header{
+    background-color: aqua;
+    display: flex;              /* Transformation en flexbox */
+    justify-content: space-between;
+}
+
+.logo-text{
+    /*Rajouter une police */
+    background-color: red;
+    
+    width: auto;
+    font-size: 6rem;
+    margin-top: -0.01em;
+    margin-left: 0.1em;
+    
+}
+
+
+
+.header-links-container{
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #ccc;
+    margin-right: 0.5em;
+
+    /* Ajout de la couleur d'arrière-plan */
+}

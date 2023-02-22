@@ -7,15 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <header> 
-        <!--commun à toutes les pages -->    
-        <!-- partie à réaliser par josiane -->
-    </header>
+      <!-- lien php pour la composante HEADER -->
+      <?php
+        include '../components/header.php';
+        ?>
+
 
     <main class="main-content"> <!--commun à toutes les pages -->
         <section class="principal-section"> <!--commun à toutes les pages -->
             <h1 class="principal-section__heading">Merci!</h1> <!--commun à toutes les pages -->
-            <p class="thanks-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis erat erat. Vestibulum cursus tristique arcu, quis pharetra felis gravida a. Quisque dignissim libero ac ultricies pellentesque. Fusce vitae sagittis tellus. Proin finibus pulvinar lectus, et porttitor ex auctor in. Donec gravida justo euismod aliquet rhoncus. Proin et diam vulputate, pretium neque quis, condimentum purus. Quisque dictum sagittis fermentum. Fusce mattis congue malesuada.</p>
+            <p class="thanks-message">
+                <?php 
+                    echo 'Merci ' . $_POST['fname'] . ' ' . $_POST['lname'] . ', nous te recontacons rapidement sur ton mail ' . $_POST['email'];
+                ?>
+            </p>
             <button class="redir-home">
                 <a href="../index.php" class="redir-home__link">
                     Retour à l'accueil
@@ -25,10 +30,11 @@
         </section>
     </main>
 
-    <footer>
-        <!--commun à toutes les pages -->    
-        <!-- partie à réaliser par josiane -->
-    </footer>
+    <!-- lien php pour la composante FOOTER -->
+    <?php
+        include '../components/footer.php';
+    ?>
+    
     
 </body>
 </html>

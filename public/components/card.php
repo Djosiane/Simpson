@@ -1,45 +1,31 @@
-<div class="cards-container"> <!--specifique page presentations -->
-    <div class="card">
-        <img class="card__image" src="/images/image1.jpeg" alt="Photo membre d'équipe">
-        <div class="card__label">
-            <h2 class="card__h2">Nom 1</h2>
-            <p class="card__p">Description du personnage Le module CSS Grid layout est un outil puissant permettant de faire de la mise en page via une grille à deux dimensions.
-Dans cette quête, tu vas découvrir comment utiliser cette technique plutôt récente dans la spécification CSS</p>
+<?php
+require_once './_connec.php';
 
-        </div>
-    </div>
+$pdo = new \PDO(DSN, USER, PASS);
 
-    <div class="card">
-        <div class="card__label">
-            <h2 class="card__h2">Nom 2</h2>
-            <p class="card__p">Description du personnage</p>
-        </div>
-         <img class="card__image" src="/images/image1.jpeg" alt="Photo membre d'équipe">
+// A exécuter afin de tester le contenu de votre table  simpsons_family
+$getArray = "SELECT * FROM simpsons_family";
+$statement = $pdo->query($getArray);
+if($statement === false){
+    var_dump($pdo->errorInfo());
+    die("Erreur SQL");
+}
 
-    </div>
+// On veut afficher notre résultat via un tableau objet (PDO::FETCH_OBJ)
+$simpsonsObject = $statement->fetchAll(PDO::FETCH_OBJ);
 
-    <div class="card">
-        <img class="card__image" src="#" alt="Photo membre d'équipe">
-        <div class="card__label">
-            <h2 class="card__h2">Nom 3</h2>
-            <p class="card__p">Description du personnage</p>
-        </div>
-    </div>
+?>
+<div class="cards-container">
     
-    <div class="card">
-        <img class="card__image" src="#" alt="Photo membre d'équipe">
+    <?php foreach($simpsonsObject as $member):?>
+        <div class="card">
+          <img class="card__image" src="<?=$member->image?>" alt="Photo membre d'équipe">
         <div class="card__label">
-            <h2 class="card__h2">Nom 4</h2>
-            <p class="card__p">Description du personnage</p>
+        <h3 class="card__heading"><?= $member->name ?></h3>
+        <p class="card__p"><?= $member->bio ?></p>
         </div>
-    </div>
-
-    <div class="card">
-        <img class="card__image" src="#" alt="Photo membre d'équipe">
-        <div class="card__label">
-            <h2 class="card__h2">Nom 5</h2>
-            <p class="card__p">Description du personnage</p>
-        </div>
-    </div>
-
+    <?php endforeach?>
+     
+   
 </div>
+

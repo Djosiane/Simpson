@@ -1,0 +1,26 @@
+/************************* BODY ****************************************************************/
+:root{
+    /*--primary-color:#4169e1; */ /*bleu*/
+    --primary-color:rgb(76, 73, 73);
+    --second-color:#ffffff;
+    --tertiary-color:#41e181;
+}
+
+body{
+    background-color: var(--primary-color) ; 
+    color: var(--second-color);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+/************************* SECTION ****************************************************************/
