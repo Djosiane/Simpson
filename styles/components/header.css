@@ -3,16 +3,17 @@
 }
 
 header{
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: rgb(55, 52, 52);
+    box-shadow: 0 8px 6px -6px var(--tertiary-color);
+    width: auto;
     display: flex;              /* Transformation en flexbox */
     justify-content: space-between;
 }
 
 .logo-text{
     /*Rajouter une police */
-    background-color: red;
-    
-    width: auto;
+    /* background-color: red; */
     font-size: 6rem;
     margin-top: -0.01em;
     margin-left: 0.1em;
@@ -20,11 +21,23 @@ header{
 }
 
 
-
 .header-links-container{
-    padding:0;                  /* Suppression des marges internes */
-    background-color: #ccc;
+    background-color: #ccc; 
     margin-right: 0.5em;
-
-    /* Ajout de la couleur d'arrière-plan */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
 }
+
+
+
+.header-link{
+    background-color : white;
+    margin-right:1rem;
+}
+
+i{
+    font-size: 8rem;
+    
+}
+

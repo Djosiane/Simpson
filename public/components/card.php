@@ -19,13 +19,13 @@ $simpsonsObject = $statement->fetchAll(PDO::FETCH_OBJ);
     
     <?php foreach($simpsonsObject as $member):?>
         <div class="card">
-          <img class="card__image" src="<?=$member->image?>" alt="Photo membre d'équipe">
-        <div class="card__label">
-        <h3 class="card__heading"><?= $member->name ?></h3>
-        <p class="card__p"><?= $member->bio ?></p>
+            <img class="card__image" src="<?=$member->image?>" alt="Photo membre d'équipe">
+            <div class="card__label">
+                <h3 class="card__heading"><?= $member->name ?></h3>
+                <p class="card__p"><?= $member->bio ?></p>
+            </div>
         </div>
     <?php endforeach?>
-     
-   
+
 </div>
 

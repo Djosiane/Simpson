@@ -1,8 +1,32 @@
 footer {
     background-color: cadetblue;
-    height: 8rem;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding: 30px;
+    
 }
-.footer-link {
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address-container{
+    background-color: blue;
+    /* display: flex;
+    flex-direction: column;
+    width:100px; */
 
 }
 
+.address {
+   border: solid black 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+}

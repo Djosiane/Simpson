@@ -1,13 +1,24 @@
 <head>
     <link rel="stylesheet" href="/styles/components/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d4ecece6c5.js" crossorigin="anonymous"></script>
 </head>
 
 <footer>
     <nav class="footer-links-container">
-        <a class="footer-link" href="apropos.html">A propos</a>
-        <a class="footer-link" href="#">Contact</a>
-        <span class= "adress">Lyon 17 rue Delandine 69002 Lyon +33412345678</span>
-        <i class="fa-brands fa-twitter" style= "font-size: 10px;"></i>
+        <a class="footer-link" href="#">A propos</a>
+        <a class="footer-link" href="/public/pages/form.php">Contact</a>
+    </nav>
+    <div class="address-container">
+        <span class="address">
+        17 rue Delandine
+        69002 Lyon
+        +33412345678
+        </span>
+    </div>
+    <nav class="icons-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
     </nav>    
-</footer>
+</footer>   

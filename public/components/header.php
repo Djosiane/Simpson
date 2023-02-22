@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="/styles/components/header.css">
+    <script src="https://kit.fontawesome.com/d4ecece6c5.js" crossorigin="anonymous"></script>
 </head>
 
 <header>
@@ -9,9 +10,15 @@
 
 
     <nav class="header-links-container">
-        <img src="https://www.canva.com/design/DAFbTTouRMs/edit"/>
-        <a class="header-link" href="accueil.html">Accueil</a>
-        <a class="header-link" href="contact.htlm">Contact</a>
+       
+        <a class="header-link" href="/public/index.php">
+            <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a class="header-link" href="/public/pages/form.php">
+            <i class="fa fa-envelope"></i>
+        </a>
+
     </nav>
 
 </header>
