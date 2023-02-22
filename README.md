@@ -1,13 +1,13 @@
 # Project n°1 Wild Code School - team Simpsons :family_man_woman_girl_boy:
 
-## Project requirements:
+## Project requirements :clipboard:
 
 - Three pages minimum:
     - Team presentation
     - Contact form
     - Form redirection page
 
-## Repo and database use specifications:
+## Repo and database use specifications :outbox_tray: :card_file_box:
 
 ### Clone this repo:
 
@@ -25,16 +25,12 @@ A dump file could be provided on demand but here's our database infos (but you c
 
 - database name: simpsons
 - table name: simpsons_family
-- table structure: 
+- table columns and properties: 
 
-+-------+--------------+------+-----+---------+----------------+
-| Field | Type         | Null | Key | Default | Extra          |
-+-------+--------------+------+-----+---------+----------------+
-| id    | int          | NO   | PRI | NULL    | auto_increment |
-| name  | varchar(25)  | NO   |     | NULL    |                |
-| bio   | text         | YES  |     | NULL    |                |
-| image | varchar(500) | NO   |     | NULL    |                |
-+-------+--------------+------+-----+---------+----------------+
+    - id => INT NOT NULL AUTO_CREMENT (PRIMARY KEY)
+    - name => VARCHAR(25) NOT NULL
+    - bio  => TEXT NULL
+    - image  => VARCHAR(500) NOT NULL
 
 ### Connect database to project:
 Once you have your database and it's content you need to 
