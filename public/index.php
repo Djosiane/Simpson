@@ -26,7 +26,7 @@
         </section>
 
         <section class="principal-section"> <!--commun à toutes les pages -->
-            <h2 class="principal-section__heading"><span class="souligne">UNE TEAM PASSIONNEE ET EXPERIMENTEE</span>.</h2> <!--commun à toutes les pages -->
+            <h2 class="principal-section__heading"><span class="souligne">UNE TEAM PASSIONNÉE ET EXPERIMENTÉ</span>E</h2> <!--commun à toutes les pages -->
             <!-- lien php pour la composante CARD (presentation équipe) -->
             <?php
                 include './components/card.php';

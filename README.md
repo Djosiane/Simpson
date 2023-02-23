@@ -21,7 +21,8 @@ For HTTPS: git clone https://github.com/Djosiane/Simpson.git
 
 ### General infos
 For this site we used a database linked to our site
-A dump file could be provided on demand but here's our database infos (but you can have your own structure and content!):
+
+A dump file could be provided on demand but here's our database infos (you can surely have your own structure and content!):
 
 - database name: simpsons
 - table name: simpsons_family
@@ -47,7 +48,7 @@ The import and display are made on the "card.php" in the case of our project.
 
 
 ## Languages used for this project:
-php, html, css
+php, HTML5, CSS3
 
 
 

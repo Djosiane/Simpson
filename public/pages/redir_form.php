@@ -20,10 +20,10 @@
 
     <main class="main-content"> <!--commun à toutes les pages -->
         <section class="principal-section"> <!--commun à toutes les pages -->
-            <h1 class="principal-section__heading">Merci!</h1> <!--commun à toutes les pages -->
+            <h1 class="principal-section__heading">Message transmis!</h1> <!--commun à toutes les pages -->
             <div class="thanks-message">
                 <p>
-                <?php 
+                 <?php 
                     echo 'Merci ' . $_POST['fname'] . ' ' . $_POST['lname'] . ', The Simpson Agency te recontacte rapidement sur ton mail ' . $_POST['email'];
                 ?>
                 </p>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/pages/form.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anton" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4ecece6c5.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
@@ -53,7 +54,12 @@
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrivez votre message ici"></textarea>
                             </div>       
                         
-                            <input class="buton-formulaire" type="submit" value="Envoyer">
+                            <button class="buton-formulaire" type="submit">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                            <!-- <input class="buton-formulaire" type="submit" value=""> -->
+                                
+                           
                         </fieldset>
                     </form>
                 </div>
