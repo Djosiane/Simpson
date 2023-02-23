@@ -1,0 +1,53 @@
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+
+
+}
+.family_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-section__heading {
+background-color: bisque;
+}
+
+.thanks-message {
+background-color: brown;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.redir-home{
+    background-color: var(--tertiary-color);;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.redir-home:hover {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+.redir-home__link{
+    color: #fff;
+    text-decoration: none;
+}
+

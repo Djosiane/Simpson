@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/styles/pages/index.css">
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/components/footer.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anton" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Simpson Agency</title>
 </head>
 <body>
     <!-- lien php pour la composante HEADER -->
@@ -24,7 +26,7 @@
         </section>
 
         <section class="principal-section"> <!--commun à toutes les pages -->
-            <h2 class="principal-section__heading">Une team passionnée et experimentée.</h2> <!--commun à toutes les pages -->
+            <h2 class="principal-section__heading"><span class="souligne">UNE TEAM PASSIONNEE ET EXPERIMENTEE</span>.</h2> <!--commun à toutes les pages -->
             <!-- lien php pour la composante CARD (presentation équipe) -->
             <?php
                 include './components/card.php';

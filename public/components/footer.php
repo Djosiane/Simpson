@@ -4,10 +4,13 @@
 </head>
 
 <footer class="footer">
-    <nav class="footer-links-container">
-        <a class="footer-link" href="#">A propos</a>
-        <a class="footer-link" href="/public/pages/form.php">Contact</a>
-    </nav>
+   
+    <div class="footer-links-nav">
+        <nav >
+            <a class="footer-link" href="#">A propos</a>
+            <a class="footer-link" href="/public/pages/form.php">Contact</a>
+        </nav>
+    </div>
     <div class="address-container">
         <span class="address">
         17 rue Delandine
@@ -15,6 +18,7 @@
         +33412345678
         </span>
     </div>
+
     <nav class="icons-container">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>

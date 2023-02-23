@@ -1,70 +1,124 @@
-/* :root{
-
-} */
-
-body{
-
-}
-
-.principal-section__heading{
-    display : flex;
-    justify-content: flex-start;
-}
+ /* :root{
+}  */
 
 .main-content{
     display : grid;
     grid-template-columns: 1fr 2fr;
-
+    
+    background-color:var(--heater-footer-color) ;
 }
+
 .firm-description{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
-    background-color: blueviolet;
-    
+    gap: 4px;
+    /*background-color: green;/
+    /* border: 10px;    */
+    padding: 10px;
+
 }
+
+.firm-description__heading{
+   /* background-color: black;*/
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    color: var(--tertiary-color);
+}
+
+.firm-description__heading:hover {
+    color: var(--second-color);
+}
+  
+.firm-description__paragraph{
+    /*background-color: blue;*/
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .principal-section{
     display: grid;
-    background-color: chocolate;
+    /* background-color: rgb(228, 222, 222); */
+    /* color: black; */
+    padding: 10px;
+ 
 
 }
 
+.principal-section__heading{
+    /*background-color: blueviolet;*/
+    display : flex;
+    justify-content: flex-start;
+    padding: 10 px;
+    justify-content: center;
+    width: 100;
+    height: 100;
+    margin:0px;
+}
+
+.souligne:hover {
+    /* color: var(--tertiary-color); */
+    border-bottom: 1px solid var(--tertiary-color);
+  }
+
+
 .cards-container{
+    padding: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: blue;
+    /*background-color:white;*/
+   
+
 }
 
 .card{
-    display:grid;
-    background-color: brown;
-    margin-bottom: 10px; 
-    border: 20 px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    margin: 4px; 
+    /* border: 20 px; */
     align-items: flex-start;
+    /* justify-content: space-around; */
+    padding: 4px;
+   
+
 }
 
 .card__image{
+    border-radius: 15px;
     display: block;
-    width: 50px;
-    background-color: darkgreen;
+    object-fit: cover;
+    max-height: 200px;
+    width: 200px;
+    /*background-color: darkgreen;*/
+    padding: 2px;
 
 
 }
 
 .card__label{
-   display: grid;
+   /*background-color: black;*/
+   /* display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 1fr 3fr;
+   grid-template-rows: 1fr 3fr; */
+  
+
 
 }
 
 .card__heading{
+    /*background-color: blueviolet;*/
     display: block;
     
+
  
 }
 
 .card__p{
+    /*background-color: aqua;*/
     display: block;
  
 } 

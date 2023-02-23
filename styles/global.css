@@ -3,52 +3,55 @@
     /*--primary-color:#4169e1; */ /*bleu*/
     --primary-color:rgb(76, 73, 73);
     --second-color:#ffffff;
-    --tertiary-color:#41e181;
+    --tertiary-color:rgb(0, 204, 170);
     --heater-footer-color:rgb(55, 52, 52);
+    --footer-color : rgb(123, 120, 120);
 }
 
 * {
     box-sizing: border-box; /* ca nous permets de transformer tout les elements meme le texte en boxe */
     padding: 0;
     margin:0; 
-  }
-  
-
+}  
 
 body{
     background-color: var(--primary-color) ; 
     color: var(--second-color);
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 h1{
-    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-weight: lighter;
+   
 }
 
 h2{
-
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
 }
 
 h3{
-
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
 }
 
-p{
-    
-}
+
+
 
 /************************* SECTION ****************************************************************/
 
 
 .main-content{
-    margin-top: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 5rem;
-
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
 }
