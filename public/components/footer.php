@@ -3,7 +3,7 @@
     <script src="https://kit.fontawesome.com/d4ecece6c5.js" crossorigin="anonymous"></script>
 </head>
 
-<footer>
+<footer class="footer">
     <nav class="footer-links-container">
         <a class="footer-link" href="#">A propos</a>
         <a class="footer-link" href="/public/pages/form.php">Contact</a>

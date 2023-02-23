@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/pages/index.css">
     <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/components/footer.css">
 
     <title>Document</title>
 </head>

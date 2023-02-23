@@ -1,0 +1,87 @@
+:root {
+  --space-vertical: 20px;
+  --space-horizontal: 80%;
+}
+
+.formulaire-contenent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color:white;
+  box-shadow: 0 0 10px rgba(111, 104, 104, 0.2);
+  text-align: center;
+}
+
+.inputs-field {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.field-legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.fnma-div,
+.lname-div,
+.projet-div,
+.email-div,
+.message-div {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #ddd;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005500;
+}
+
+@media screen and (min-width: 768px) {
+  .inputs-field {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projet-div {
+    grid-column: span 2;
+  }
+
+  .email-div,
+  .message-div {
+    grid-column: span 2;
+  }
+
+  .buton-formulaire{
+    grid-column: span 2;
+  }
+}

@@ -1,43 +1,48 @@
-.color-title{
-    color : var(--tertiary-color);
-}
+/******************************************************* HEADER ***************************************************************/
 
-header{
-    /* background-color: aqua; */
-    background-color: rgb(55, 52, 52);
-    box-shadow: 0 8px 6px -6px var(--tertiary-color);
-    width: auto;
-    display: flex;              /* Transformation en flexbox */
+/* S'applique sur tout le header */
+header {
+    display: flex;
     justify-content: space-between;
-}
+    align-items: center;
+    background-color: var(--heater-footer-color);
+    box-shadow: 0 8px 6px -6px var(--tertiary-color);
+    padding: 20px;
+    width: 100%;
+  }
+  
+    /* S'applique au conteneur du logo(Simpson AGENCY) */
+  .logo-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
-.logo-text{
-    /*Rajouter une police */
-    /* background-color: red; */
-    font-size: 6rem;
-    margin-top: -0.01em;
-    margin-left: 0.1em;
-    
-}
+   /* S'applique pour agency */
+  .color-title {
+    color: var(--tertiary-color);
+  }
 
-
-.header-links-container{
-    background-color: #ccc; 
-    margin-right: 0.5em;
+  .simpson-text:hover {
+    color: var(--tertiary-color);
+  }
+  
+   /* S'applique pour le conteneur contenant les 2 icones */
+  .header-links-container {
     display: flex;
     align-items: center;
-    padding: 1rem;
-}
+  }
+  
+    /* S'applique pour chacunes des 2 icones (deux fois)  */
+  .header-link {
+    color: var(--second-color);
+    font-size: 18px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
 
-
-
-.header-link{
-    background-color : white;
-    margin-right:1rem;
-}
-
-i{
-    font-size: 8rem;
-    
-}
-
+    /* S'applique quand on survole l'une des 2 icones */
+  .header-link:hover {
+    /* color: var(--tertiary-color); */
+    border-bottom: 2px solid var(--tertiary-color);
+  }
+  

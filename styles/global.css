@@ -4,6 +4,7 @@
     --primary-color:rgb(76, 73, 73);
     --second-color:#ffffff;
     --tertiary-color:#41e181;
+    --heater-footer-color:rgb(55, 52, 52);
 }
 
 * {
@@ -15,14 +16,18 @@
 
 
 body{
-
     background-color: var(--primary-color) ; 
     color: var(--second-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 h1{
-    text-align:center;
-    font-size: 3em;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h2{
@@ -38,3 +43,12 @@ p{
 }
 
 /************************* SECTION ****************************************************************/
+
+
+.main-content{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+
+}

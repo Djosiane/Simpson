@@ -5,7 +5,7 @@
 
 <header>
     <div class="logo-container">
-        <p class="logo-text">Simpson <span class="color-title">AGENCY</span></p>
+        <p class="logo-text"><span class="simpson-text">Simpson</span> <span class="color-title">AGENCY</span></p>
     </div>
 
 
